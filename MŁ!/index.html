@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <style>
+        table, td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h6>Lotnisko</h6>
+    <h2>Lista numerowana</h2>
+    <ol>
+        <li>Pierwszy element</li>
+        <li>Drugi element</li>
+        <li>Trzeci element</li>
+        <ol>
+                <li>podelement</li>
+                <li>podelement</li>
+                <li>podelement</li>
+        </ol>
+        <ul>
+            <li>xd</li>
+            <li>xd</li>
+            <li>xd</li>
+            <li>xd</li>
+        </ul>
+        <li>XD</li>
+    </ol>
+    <h2>...i nie</h2>
+    <ul>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <ul>
+            <li>podelement</li>
+            <li>podelement</li>
+            <li>podelement</li>
+        </ul>
+        <Li>XD</Li>
+    </ul>
+    <hr>
+    <hr2>tabela</hr2>
+
+    <table>
+        <tr>
+            <th>kolumna 1</th>
+            <th>kolumna 2</th>
+            <th>kolumna 3</th>
+        </tr>
+        <tr>
+            <td>Komórka 1</td>
+            <td>Komórka 2</td>
+            <td>Komórka 3</td>
+        </tr>
+        <tr>
+            <td>Komórka 4</td>
+            <td>Komórka 5</td>
+        </tr>
+        <tr>
+            <td>Komórka 6</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Formularz</h2>
+
+    <form action="plik.php" method="POST">
+            <h2>oddaj swojego kota lol</h2>
+
+            <label for="wiek">
+                <p>[Zaznacz pole wiek]</p>
+            </label>
+
+            <label for="imie">
+                <p>Imie kota</p>
+                <input type="text" name="imie" id="imie">
+            </label>
+
+            <label for="płęc">
+                <p>płec kota</p>
+                <input type="select" name="płec" id="płec">
+            </label>
+
+            <label for="waga">
+                <p>Waga koteła</p>
+                <input type="number" name="waga" id="waga">
+            </label>
+
+            <label for="rmail">
+                <p>Email pana/pani</p>
+                <input type="email" name="email" id="email">
+            </label>
+
+            <input type="text" name="imie">
+            <input type="number" name="wiek" id="wiek">
+            <select name="plecy" id="płec">
+                <option value="k">koteczka</option>
+                <option value="m">kotełarz</option>
+            </select>
+            <input type="radio" value="dachowiec" name="rasa">
+            <input type="radio" value="Sląski" name="rasa">
+            <input type="radio" value="V-23 2001" name="rasa">
+            <input type="number" name="waga" id="waga">
+            <input type="email" name="email" id="email">
+
+
+            <button>Wyślij</button>
+    </form>
+
+</body>
+</html>
