@@ -4,21 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        table, td{
-            border: 1px solid black;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <hr>
     <h6>Lotnisko</h6>
-    <h2>Witamy na stronie Lotniska PKP Lublin Główny </h2>
+    <h2>Witamy na stronie Lotniska PKP Lublin Główny! </h2>
     <h3>Nasze Lotnisko:</h3>
     <img src="2-18.jpg" alt="Nasze_lotnisko.png" style="width:420px;height:320px;">
 <hr>
-<h2>Mamy:</h2>
-    <ul>
+<h1>Mamy:</h1>
+    <ul class="lista1">
         <li>Helikoptery</li>
         <li>Samoloty</li>
         <ul>
@@ -27,19 +23,38 @@
             <li>Szkoleniowe</li>
             <li>Wojskowe</li>
     </ul></ul>
-<h4>Wojskowe? Tak! Nasze lotnisko jest złączonę i zintegrowane z Bazą Wojskową w Lublinie!</h4>
+<h3>Wojskowe? Tak! Nasze lotnisko jest złączonę i zintegrowane z Bazą Wojskową w Lublinie!</h3>
 <hr>
 <h2>Mamy też bardzo zróznowane sposoby na dostanie się na naszę Lotnisko!</h2>
-<ul>
+<ul class="lista2">
     <li>Taxi</li>
     <li>Autobusy</li>
     <li>Samochody</li>
     <li>Rowery</li>
+    <li>Pociągi</li>
 </ul>
 <h3>Dzięki Dworcu Kolejowego PKP Lublin Główny, Możes się to nasz dostać nawet Pociągiem!</h3>
 <img src="WK15_Lublin_2_Lichen99-1.jpg" alt="Naszi_przyjaciele_z_stacji_kolejowej.png" style="width:300px;height:200px;">
 <hr>
 <hr3>Odloty</hr3>
+<hr>
+<h2>Prosze podać Imię, Nazwisko, imię psa, najbliszą ulice, i samolot na którym leciałes/leciałiscie, dziękuje c:</h2>
+
+<form action="plik.php" method="POST">
+    Imię:<br>
+    <input type="text" name="imie"><br>
+    Nazwisko:<br>
+    <input type="text" name="nazwisko"><br>
+    pies<br>
+    <input type="text" name="imię psa"><br>
+    ulica:<br>
+    <input type="text" name="ulica"><br>
+    Samolot:<br>
+    <input type="text" name="smierc"><br>
+
+    <button>Wyślij</button>
+  </form> 
+<hr>
 
 <table>
     <tr>
@@ -58,17 +73,21 @@
         <td>Ił-62M SP-LBG „Tadeusz Kościuszko”</td>
         <td>Nowy Jork</td>
         <td>11:12</td>
-        <td>42 lata</td>
+        <td>42 lat</t>
 
     </tr>
     <tr>
         <td>PLL LOT Lockheed Electra</td>
         <td>Warszawa</td>
         <td>16:43</td>
-        <td>88 lata</td>
+        <td>88 lat</td>
     </tr>
 </table>
 <hr>
+<h2>Nasze najlepsze loty z AI zamiast prawdzywimi ludzmi!</h2>
+<img src="SP-WAW-1.jpg" alt="Cessna_208B_Grand_Caravan_z_2023.jpg" style="width:300px;height:200px;">
+<img src="OIP.webp" alt="Ił-62M_SP-lbg_„Tadeusz_Kościuszko”.webp" style="width:300px;height:200px;">
+<img src="OIP (1).webp" alt="PLL_LOT_Lockhead_Electra.webp" style="width:300px;height:200px;">
 
 
 </body>
