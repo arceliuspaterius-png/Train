@@ -1,0 +1,58 @@
+body{
+    background-color:rgb(0, 0, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.dlug{
+    width: 50%;
+    height: 100px;
+    background-color: rgb(22, 10, 10);
+    padding: 20px;
+}
+
+.blok{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+}
+
+.blok2{
+
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+}
+
+.lini{
+display: flex;
+flex-direction: row;
+;
+}
+
+.tron{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.bigboy{
+    width: 95.6%;
+    height: 80%;
+    background-color: rgb(168, 168, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallboy{
+ width: 100px;
+ height: 100px;
+ background-color: royalblue;
+ padding: 20px;
+}
